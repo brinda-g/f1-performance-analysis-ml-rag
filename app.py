@@ -180,10 +180,18 @@ def fetch_race_results(year, gp):
 
 @st.cache_resource
 def load_rag_resources():
+    import os
     from langchain_openai import OpenAIEmbeddings, ChatOpenAI
     from langchain_community.vectorstores import FAISS
-    from dotenv import load_dotenv
-    load_dotenv()
+
+    # Prefer Streamlit secrets (cloud); fall back to .env (local dev)
+    api_key = st.secrets.get("OPENAI_API_KEY") if hasattr(st, "secrets") else None
+    if not api_key:
+        from dotenv import load_dotenv
+        load_dotenv()
+        api_key = os.getenv("OPENAI_API_KEY")
+    if api_key:
+        os.environ["OPENAI_API_KEY"] = api_key
 
     embeddings = OpenAIEmbeddings(request_timeout=15)
     vectorstore = FAISS.load_local("faiss_index", embeddings, allow_dangerous_deserialization=True)
@@ -544,8 +552,14 @@ def rebuild_chatbot_index(laps, year, gp_display, gp_fastf1):
     from langchain_community.vectorstores import FAISS
     from langchain_community.document_loaders import DirectoryLoader, TextLoader
     from langchain_text_splitters import RecursiveCharacterTextSplitter
-    from dotenv import load_dotenv
-    load_dotenv()
+
+    api_key = st.secrets.get("OPENAI_API_KEY") if hasattr(st, "secrets") else None
+    if not api_key:
+        from dotenv import load_dotenv
+        load_dotenv()
+        api_key = os.getenv("OPENAI_API_KEY")
+    if api_key:
+        os.environ["OPENAI_API_KEY"] = api_key
 
     os.makedirs('race_knowledge', exist_ok=True)
     fname = f'race_knowledge/{gp_fastf1.lower().replace(" ", "_")}_{year}.txt'

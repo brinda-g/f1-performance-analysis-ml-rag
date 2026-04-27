@@ -1,0 +1,13 @@
+Japanese Grand Prix 2022 - Race Analysis
+
+Race Summary:
+- Event: Japanese Grand Prix 2022
+- Total Race Laps: 28
+- Tire Compounds Used: INTERMEDIATE, WET
+- Fastest Lap: 104.41s
+- Average Lap Time: 112.30s
+
+Top Finishers: VER, LEC, PER
+
+This data was sourced from the FastF1 API for the Japanese 2022 Formula 1 race.
+The ML model was retrained on 432 laps from this race.

@@ -1,0 +1,13 @@
+Australian Grand Prix 2023 - Race Analysis
+
+Race Summary:
+- Event: Australian Grand Prix 2023
+- Total Race Laps: 57
+- Tire Compounds Used: MEDIUM, HARD, SOFT
+- Fastest Lap: 80.23s
+- Average Lap Time: 87.15s
+
+Top Finishers: VER, HAM, ALO
+
+This data was sourced from the FastF1 API for the Australian 2023 Formula 1 race.
+The ML model was retrained on 901 laps from this race.

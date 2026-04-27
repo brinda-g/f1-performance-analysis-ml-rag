@@ -1,0 +1,33 @@
+
+Driver Performance Analysis - Monaco GP 2024
+
+Key Drivers Analyzed:
+
+Max Verstappen (Red Bull Racing #1):
+- Starting Position: P1
+- Finishing Position: P1 (Winner)
+- Tire Strategy: Medium (Laps 1-53) → Hard (Laps 54-78)
+- Pit Stop: Lap 53
+- Average Lap Time: ~80-82 seconds
+- Performance: Dominant, controlled pace throughout
+
+Charles Leclerc (Ferrari #16):
+- Starting Position: P2
+- Finishing Position: P2
+- Home race (Monaco native)
+- Strong qualifying performance
+- Consistent race pace
+- Strategic battle with Verstappen
+
+Lando Norris (McLaren #4):
+- Starting Position: P5
+- Finishing Position: P5
+- McLaren showing improved pace
+- Clean race execution
+- Tire management focus
+
+Performance Factors:
+- Track position determines race outcome at Monaco
+- Tire degradation impacts lap times progressively
+- Traffic significantly affects lap times (±2-3 seconds)
+- DRS has limited effect due to few overtaking zones

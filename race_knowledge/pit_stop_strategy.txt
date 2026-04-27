@@ -1,0 +1,28 @@
+
+Pit Stop Strategy - Formula 1 Fundamentals
+
+Pit stops are critical strategic moments in F1 races where teams can gain or lose positions.
+
+Undercut Strategy:
+- Pit earlier than competitor
+- Fresh tires provide pace advantage
+- Attempt to overtake via pit lane
+- Risk: May lose track position if stop is slow
+
+Overcut Strategy:
+- Stay out longer than competitor
+- Push on older tires while others pit
+- Hope to gain time and jump ahead
+- Risk: Tire degradation may cost lap time
+
+Monaco-Specific Considerations:
+- Track position is everything
+- Pit stops often lose positions due to lack of overtaking
+- Teams prefer to extend stints as long as possible
+- Late pit stops work well if tires can last to the end
+- Average pit stop time loss: ~20-25 seconds including in/out laps
+
+The optimal pit window at Monaco is typically:
+- Early stop (Laps 15-20): Risky, may lose positions
+- Mid-race stop (Laps 25-35): Standard, maintains rhythm
+- Late stop (Laps 45-55): Strategic, fresh tires for finale

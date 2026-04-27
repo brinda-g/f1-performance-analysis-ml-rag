@@ -1,0 +1,13 @@
+Japanese Grand Prix 2023 - Race Analysis
+
+Race Summary:
+- Event: Japanese Grand Prix 2023
+- Total Race Laps: 53
+- Tire Compounds Used: MEDIUM, HARD, SOFT
+- Fastest Lap: 94.18s
+- Average Lap Time: 101.41s
+
+Top Finishers: VER, NOR, PIA
+
+This data was sourced from the FastF1 API for the Japanese 2023 Formula 1 race.
+The ML model was retrained on 819 laps from this race.

@@ -1,0 +1,28 @@
+
+F1 Tire Compound Analysis - Monaco 2024
+
+Pirelli supplied three tire compounds for Monaco 2024:
+
+SOFT (Red):
+- Fastest lap times initially
+- Degrades quickly on Monaco's abrasive surface
+- Optimal stint length: 8-12 laps
+- Best for qualifying, rarely used in race beyond opening stint
+- Degradation rate: ~0.32 seconds per lap
+
+MEDIUM (Yellow):
+- Balanced performance and durability
+- Most versatile compound for Monaco
+- Optimal stint length: 18-25 laps
+- Degradation rate: ~0.18 seconds per lap
+- Preferred starting compound for many teams
+
+HARD (White):
+- Slowest initially but most durable
+- Consistent performance over long stints
+- Optimal stint length: 25-35 laps
+- Degradation rate: ~0.12 seconds per lap
+- Ideal for finishing stint in 1-stop strategy
+
+Strategic Insight: The winning strategy combined Medium start with Hard finish, 
+maximizing track position while ensuring tire life to the end.

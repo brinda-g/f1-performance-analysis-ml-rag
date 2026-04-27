@@ -1,0 +1,33 @@
+
+Lap Time Prediction Model - Technical Overview
+
+Our Random Forest machine learning model predicts F1 lap times with the following specifications:
+
+Model Architecture:
+- Algorithm: Random Forest Regressor
+- Number of estimators: 100 decision trees
+- Max depth: 15 levels
+- Training data: Monaco GP 2024 (245 laps)
+
+Input Features (4 total):
+1. Tire Compound (Encoded: 0=Soft, 1=Medium, 2=Hard)
+2. Tire Age (Number of laps on current tire set)
+3. Track Position (1st, 2nd, 3rd... 20th)
+4. Lap Number (Current lap in race)
+
+Model Performance:
+- R² Score: 0.319 (31.9% variance explained)
+- Mean Absolute Error: ±0.92 seconds
+- Prediction Range: 75-105 seconds typical
+
+Interpretation:
+31.9% accuracy might seem modest, but F1 lap times are affected by 50+ variables 
+including traffic, fuel load, weather, driver errors, and team orders. With only 
+4 features, achieving ±0.92 second accuracy demonstrates the model successfully 
+captures fundamental tire degradation patterns.
+
+Use Cases:
+- Predicting optimal pit window
+- Estimating finish time with different strategies
+- Analyzing tire performance degradation
+- Supporting race strategy decisions

@@ -1,0 +1,17 @@
+
+Monaco Grand Prix 2024 - Race Strategy Summary
+
+The Monaco Grand Prix is one of F1's most prestigious races, held on the tight street circuit 
+of Monte Carlo. The 2024 race was won by Max Verstappen (Red Bull Racing).
+
+Key Strategic Elements:
+- Track characteristics: Slowest circuit on calendar, heavy on brakes
+- Overtaking: Nearly impossible, qualifying position is crucial
+- Tire management: Critical due to limited overtaking opportunities
+- Pit stop strategy: Most teams opt for 1-stop due to track position importance
+
+Race Winner: Max Verstappen (Red Bull)
+Winning Strategy: Started on Medium tires, pitted on Lap 53, finished on Hard tires
+
+The late pit stop proved optimal as it gave Verstappen fresh Hard tires for the final 25 laps 
+while competitors struggled on degraded rubber. Track position was maintained throughout.

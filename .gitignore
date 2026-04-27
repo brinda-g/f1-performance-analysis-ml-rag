@@ -1,6 +1,7 @@
 # Secrets — never commit
 .env
 *.env
+.streamlit/secrets.toml
 
 # Python
 __pycache__/
@@ -16,13 +17,14 @@ venv/
 # FastF1 data cache (large, re-downloadable)
 f1_cache/
 
-# Generated model & chart files (reproducible via scripts)
-lap_time_model.pkl
-*.pkl
-*.png
+# Generated model & chart files — kept so Streamlit Cloud has them
+# (re-generate locally with ml_lap_predictor.py and the chart scripts)
 
-# FAISS index (rebuilt by chatbot_setup.py)
-faiss_index/
+# FAISS index — kept so the chatbot works on Streamlit Cloud
+# (re-generate locally with chatbot_setup.py)
 
-# Knowledge base docs (rebuilt by create_knowledge_base.py)
-race_knowledge/
+# Knowledge base docs — kept so the chatbot has context
+# (re-generate locally with create_knowledge_base.py)
+
+# FastF1 per-session cache (very large, runtime only)
+f1_cache/
